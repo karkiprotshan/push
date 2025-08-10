@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.nav-a{
+display: flex;
+list-style: none;
+text-decoration: none;
+color: rgb(235, 152, 52);
+gap: 50px;
+}
+
+.nav-b{
+
+}
+
+.nav-c{
+    display: flex;
+    list-style-type: none;
+}
+
