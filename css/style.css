@@ -6,9 +6,10 @@
 
 .navbar {
  display: flex;
- justify-content: space-around;
  flex-wrap: wrap;
- box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+height: 60px;
+padding: 20px;
 }
 
 .nav-a{
@@ -16,13 +17,59 @@ display: flex;
 list-style: none;
 text-decoration: none;
 color: rgb(235, 152, 52);
-gap: 50px;
+gap: 45px;
+flex-wrap: wrap;
+padding-left: 8px;
+ 
+
 }
 
+.nav-b {
+    list-style-type: none;
+    padding-left: 200px;
+    position: relative;
+    align-self: center;
+    border-radius: 20px;
+    top: -3px;
 
+}
+
+.nav-b input{
+    height: 28px;
+    width: 230px;
+    border-radius: 20px;
+    
+}
+
+.nav-b i {
+    padding-left: 600px;
+    position: absolute;
+    right:5px;
+  	top:2px;
+  	padding: 3px;
+}
 
 .nav-c{
     display: flex;
     list-style-type: none;
+    padding-left: 360px;
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fa-facebook {
+  color: #1877F2;
+}
+
+.fa-instagram {
+  color: #E4405F;
+}
+
+.fa-discord {
+  color: #5865F2;
+}
+
+.fa-tiktok {
+  color: #000000;
 }
 
